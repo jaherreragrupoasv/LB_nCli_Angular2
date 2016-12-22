@@ -1,0 +1,67 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "User": {
+    "dataSource": "mysql"
+  },
+  "AccessToken": {
+    "dataSource": "mysql",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "mysql",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "mysql",
+    "public": false
+  },
+  "Role": {
+    "dataSource": "mysql",
+    "public": false
+  },
+  "TratamientosSesionesDias": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "TratamientosFases": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "TratamientosSesiones": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "Tratamientos": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "Tipos": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "Fases": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "SubTipos": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "Clientes": {
+    "dataSource": "mysql",
+    "public": true
+  }
+}
