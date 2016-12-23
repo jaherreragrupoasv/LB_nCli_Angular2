@@ -52,9 +52,12 @@ export class Register {
     );
   }
 
-
-  aSecondNewFunction(){
+  aSecondNewFunction() {
     console.log("Function created en branch R1");
+  };
+
+  anewfunction(){
+    console.log("Hacemos este cambio en el develop");
   };
 
   register(user: Object) {
