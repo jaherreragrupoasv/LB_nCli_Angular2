@@ -54,6 +54,7 @@ export class Register {
 
   register(user: Object) {
 
+    // Eliminate properties to object
     delete user['name'];
     user["password"] = user.passwords.password;
     delete user['passwords'];
