@@ -52,6 +52,10 @@ export class Register {
     );
   }
 
+  anewfunction(){
+    console.log("Hacemos este cambio en el develop");
+  };
+
   register(user: Object) {
 
     delete user['name'];
