@@ -52,6 +52,11 @@ export class Register {
     );
   }
 
+
+  aSecondNewFunction(){
+    console.log("Function created en branch R1");
+  };
+
   register(user: Object) {
 
     // Eliminate properties to object
