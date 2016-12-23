@@ -52,6 +52,10 @@ export class Register {
     );
   }
 
+  aThirdNewFunction() {
+    console.log("Function created en branch R1");
+  };
+
   aSecondNewFunction() {
     console.log("Function created en branch R1");
   };
